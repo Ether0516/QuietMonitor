@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>QuietMonitor</AssemblyName>
+    <RootNamespace>QuietMonitor</RootNamespace>
+    <Version>0.1.0</Version>
+    <Description>简洁的 CPU / GPU 桌面监控</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuietMonitor.Core\QuietMonitor.Core.csproj" />
+  </ItemGroup>
+</Project>

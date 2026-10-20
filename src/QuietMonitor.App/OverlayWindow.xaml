@@ -1,0 +1,15 @@
+<Window x:Class="QuietMonitor.OverlayWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Quiet Monitor" WindowStyle="None"
+ AllowsTransparency="True" Background="Transparent" ResizeMode="NoResize" SizeToContent="WidthAndHeight"
+ ShowInTaskbar="False" ShowActivated="False" Topmost="True" UseLayoutRounding="True"
+ SnapsToDevicePixels="True" FontFamily="Segoe UI, Microsoft YaHei UI">
+ <Border x:Name="Panel" CornerRadius="12" Padding="18,12" BorderThickness="1" BorderBrush="#254E607A">
+  <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+   <TextBlock Text="CPU" Foreground="#B9C4D5" VerticalAlignment="Center" FontWeight="Medium" Margin="0,0,10,0"/>
+   <TextBlock x:Name="CpuValue" Text="—" Width="48" TextAlignment="Right" FontWeight="SemiBold"/>
+   <Border Width="1" Background="#385D6C83" Margin="17,1"/>
+   <TextBlock Text="GPU" Foreground="#B9C4D5" VerticalAlignment="Center" FontWeight="Medium" Margin="0,0,10,0"/>
+   <TextBlock x:Name="GpuValue" Text="—" Width="48" TextAlignment="Right" FontWeight="SemiBold"/>
+  </StackPanel>
+ </Border>
+</Window>

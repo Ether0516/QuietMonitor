@@ -1,0 +1,17 @@
+name: Feature idea / 新想法
+description: Suggest an optional widget or improvement.
+title: "[Idea] "
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case / 使用场景
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Minimal proposal / 最小方案
+      description: Explain how it remains optional and keeps the default CPU/GPU view compact.
+    validations:
+      required: true

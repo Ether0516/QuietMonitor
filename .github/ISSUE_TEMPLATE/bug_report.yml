@@ -1,0 +1,22 @@
+name: Bug report / 问题反馈
+description: Report a reproducible monitoring or UI problem.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / 环境
+      description: Windows version, GPU/driver, app version and sampling source. Omit personal paths and device identifiers.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps and expected/actual behavior / 复现步骤与预期、实际表现
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional sanitized evidence / 可选的脱敏信息
+      description: Never attach credentials, personal notes or unreviewed diagnostic logs.

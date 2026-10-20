@@ -1,0 +1,15 @@
+.tools/
+.local/
+**/bin/
+**/obj/
+artifacts/
+research/
+.vs/
+*.user
+.nuget/
+*.log
+*.tmp
+*.dmp
+.env
+.env.*
+!.env.example
